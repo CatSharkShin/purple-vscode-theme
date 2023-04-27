@@ -1,0 +1,21 @@
+{
+  "name": "catshark-purple",
+  "displayName": "CatsPurple",
+  "description": "Grey and purple theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.77.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Cat's Purple",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Cat's Purple-color-theme.json"
+      }
+    ]
+  }
+}
