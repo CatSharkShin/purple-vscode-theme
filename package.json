@@ -1,9 +1,9 @@
 {
   "name": "catshark-purple",
-  "displayName": "CatsPurple",
+  "displayName": "Cats Purple",
   "description": "Grey and purple theme",
   "publisher": "catshark",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.77.0"
   },
