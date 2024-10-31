@@ -7,10 +7,15 @@
 		"sideBarTitle.foreground": "#bbbbbb",
 		"button.background": "#6f00ff",
 		"icon.foreground": "#6f00ff",
-		"activityBar.activeBackground": "#9f55ff",
-		"activityBar.inactiveForeground": "#994cff",
+		"activityBar.background": "#1c1c1c",
+		"activityBar.activeBackground": "#6f00ff",
+		"activityBar.inactiveForeground": "#6f00ff",
 		"welcomePage.progress.foreground": "#6f00ff",
 		"textLink.foreground": "#9340ff",
+
+		"statusBar.background" : "#1A1A1A",
+		"statusBar.noFolderBackground" : "#212121",
+		"statusBar.debuggingBackground": "#263238"
 	},
 	"tokenColors": [
 		{
@@ -43,6 +48,12 @@
 			"settings": {
 				"foreground": "#994cff",
 				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "string.quoted.double.html",
+			"settings": {
+				"foreground": "#ffffff"
 			}
 		},
 		{
@@ -103,7 +114,7 @@
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#994CFF"
 			}
 		},
 		{
@@ -133,7 +144,7 @@
 				"markup.deleted.git_gutter"
 			],
 			"settings": {
-				"foreground": "#f07178"
+				"foreground": "#ff1e74"
 			}
 		},
 		{
@@ -143,6 +154,15 @@
 			],
 			"settings": {
 				"foreground": "#c94683"
+			}
+		},
+		{
+			"name": "Python Source",
+			"scope": [
+				"source.python",
+			],
+			"settings": {
+				"foreground": "#ffffff"
 			}
 		},
 		{
@@ -163,7 +183,7 @@
 				"meta.block variable.other"
 			],
 			"settings": {
-				"foreground": "#f07178"
+				"foreground": "#ffffff"
 			}
 		},
 		{
@@ -184,18 +204,27 @@
 				"support.constant",
 				"constant.character",
 				"constant.escape",
-				"variable.parameter",
 				"keyword.other.unit",
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#46d7ff"
+				"foreground": "#00c7ff"
+			}
+		},
+		{
+			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+			"scope": [
+				"variable.parameter",
+			],
+			"settings": {
+				"foreground": "#ffd700"
 			}
 		},
 		{
 			"name": "String, Symbols, Inherited Class, Markup Heading",
 			"scope": [
 				"string",
+				"string.quoted.single.python",
 				"stringend",
 				"punctuation.definition.string",
 				"constant.other.symbol",
@@ -206,7 +235,7 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#9d76d3"
+				"foreground": "#b781ff"
 			}
 		},
 		{
@@ -245,7 +274,7 @@
 				"source.postcss support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#00b7ff"
+				"foreground": "#926bff"
 			}
 		},
 		{
@@ -295,7 +324,7 @@
 				"entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#ffd700"
 			}
 		},
 		{
@@ -315,7 +344,7 @@
 				"entity.other.attribute-name.class"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#ffd700"
 			}
 		},
 		{
