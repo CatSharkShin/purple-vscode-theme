@@ -23,6 +23,26 @@
 	},
 	"tokenColors": [
 		{
+			"name": "Json Key",
+			// "key": value
+			"scope": [
+				"support.type.property-name.json"
+			],
+			"settings": {
+				"foreground": "#6f00ff"
+			}
+		},
+		{
+			"name": "Json Value",
+			// key: "value"
+			"scope": [
+				"string.quoted.double.json"
+			],
+			"settings": {
+				"foreground": "#ffd700"
+			}
+		},
+		{
 			"name": "Comment",
 			// this
 			"scope": [
