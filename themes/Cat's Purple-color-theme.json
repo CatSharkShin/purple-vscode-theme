@@ -16,7 +16,6 @@
 		"activityBar.inactiveForeground": "#6f00ff",
 		"welcomePage.progress.foreground": "#6f00ff",
 		"textLink.foreground": "#9340ff",
-
 		"statusBar.background" : "#1A1A1A",
 		"statusBar.noFolderBackground" : "#212121",
 		"statusBar.debuggingBackground": "#263238"
