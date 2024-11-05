@@ -3,7 +3,7 @@
   "displayName": "Cats Purple",
   "description": "Grey and purple theme",
   "publisher": "catshark",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "engines": {
     "vscode": "^1.77.0"
   },
