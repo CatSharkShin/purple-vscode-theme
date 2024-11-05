@@ -23,6 +23,17 @@
 	},
 	"tokenColors": [
 		{
+			"name": "Comment",
+			// this
+			"scope": [
+				"comment",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"foreground": "#5d5d5d"
+			}
+		},
+		{
 			"name": "Storage Type",
 			// Storage Type
 			"scope":[
